@@ -3,6 +3,11 @@ Android Kotlin Bottom Sheet , Popupfrom Bottom
 
 # Note
 
+- app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+- app:behavior_peekHeight="0dp"
+- add your views
+
+# NestedScrollView
     <androidx.core.widget.NestedScrollView
             android:id="@+id/bottom_sheet"
             android:layout_width="match_parent"
